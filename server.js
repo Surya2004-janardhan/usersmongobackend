@@ -413,7 +413,7 @@
 // app.listen(5000, () => {
 //   console.log("Server running on port 5000");
 // });
-const functions = require("firebase-functions");
+// const functions = require("firebase-functions");
 
 const express = require("express");
 const mongoose = require("mongoose");
@@ -796,4 +796,4 @@ app.get("/", (req, res) => {
 app.listen(5000, "0.0.0.0", () => {
   console.log("Server running");
 });
-exports.api = functions.https.onRequest(app);
+// exports.api = functions.https.onRequest(app);
