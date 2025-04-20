@@ -11,6 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "mongoose-sequence": "^6.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0"
   }
 }
